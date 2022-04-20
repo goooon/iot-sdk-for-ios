@@ -1,0 +1,6 @@
+framework module Pods_iot_sdk_for_ios_Tests {
+  umbrella header "Pods-iot-sdk-for-ios_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

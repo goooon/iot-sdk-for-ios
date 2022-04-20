@@ -1,0 +1,22 @@
+{
+  "name": "iot-sdk-for-ios",
+  "version": "0.1.0",
+  "summary": "A short description of iot-sdk-for-ios.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/古至和/iot-sdk-for-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "古至和": "guzhihe@agora.io"
+  },
+  "source": {
+    "git": "https://github.com/古至和/iot-sdk-for-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "iot-sdk-for-ios/Classes/**/*"
+}

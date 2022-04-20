@@ -13,14 +13,14 @@
 
 /* Begin PBXFileReference section */
 		011E2A0DAB2EFCD2B76551BF /* Pods-iot-sdk-for-ios_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iot-sdk-for-ios_Tests.release.xcconfig"; path = "Target Support Files/Pods-iot-sdk-for-ios_Tests/Pods-iot-sdk-for-ios_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		162EEBE5AE8E82786681F460 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		162EEBE5AE8E82786681F460 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* iot-sdk-for-ios_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iot-sdk-for-ios_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		BD80950F764959A07228B5CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BD80950F764959A07228B5CC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CC59DD4DAFD313270FDB428E /* Pods_iot_sdk_for_ios_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iot_sdk_for_ios_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D9CB7FF0352310A09A0292 /* Pods-iot-sdk-for-ios_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iot-sdk-for-ios_Tests.debug.xcconfig"; path = "Target Support Files/Pods-iot-sdk-for-ios_Tests/Pods-iot-sdk-for-ios_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E3D7A9C95269ACB1817150ED /* iot-sdk-for-ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "iot-sdk-for-ios.podspec"; path = "../iot-sdk-for-ios.podspec"; sourceTree = "<group>"; };
+		E3D7A9C95269ACB1817150ED /* iot-sdk-for-ios.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "iot-sdk-for-ios.podspec"; path = "../iot-sdk-for-ios.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,6 @@
 				D1D9CB7FF0352310A09A0292 /* Pods-iot-sdk-for-ios_Tests.debug.xcconfig */,
 				011E2A0DAB2EFCD2B76551BF /* Pods-iot-sdk-for-ios_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,16 @@
+PODS:
+  - iot-sdk-for-ios (0.1.0)
+
+DEPENDENCIES:
+  - iot-sdk-for-ios (from `../`)
+
+EXTERNAL SOURCES:
+  iot-sdk-for-ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iot-sdk-for-ios: 15225d2576f77c79f5fe32b67aa1f7c4960f32f4
+
+PODFILE CHECKSUM: 33161357af608a91ff9f97a0aef061375af31442
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,6 @@
+framework module iot_sdk_for_ios {
+  umbrella header "iot-sdk-for-ios-umbrella.h"
+
+  export *
+  module * { export * }
+}
