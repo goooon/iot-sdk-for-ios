@@ -1,0 +1,6 @@
+use_frameworks!
+target 'iot-sdk-for-ios_Tests' do
+  pod 'iot-sdk-for-ios', :path => '../'
+  
+  
+end
